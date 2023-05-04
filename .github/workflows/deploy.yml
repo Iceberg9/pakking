@@ -1,0 +1,52 @@
+name: Deploy Shopify Theme
+
+on:
+    push:
+        branches:
+            - live
+jobs:
+    deploy:
+        runs-on: ubuntu-latest
+
+        steps:
+            - uses: actions/checkout@v2
+
+            - name: Deploy Theme
+              uses: pgrimaud/action-shopify@master
+              env:
+                  SHOPIFY_PASSWORD: ${{ secrets.SHOPIFY_APP_ACCESS_TOKEN }}
+                  SHOPIFY_STORE_URL: ${{ secrets.SHOPIFY_SHOP_URL }}
+                  SHOPIFY_THEME_ID: ${{ secrets.SHOPIFY_THEME_ID }}
+                  THEME_PATH: ${{ secrets.THEME_PATH }}
+              with:
+                  args: --ignored-file=templates/*.json --ignored-file=config/ --ignored-file=locales/
+
+            - name: Slack Notification Success
+              if: success()
+              uses: rtCamp/action-slack-notify@v2
+              env:
+                  SLACK_CHANNEL: github-bot
+                  SLACK_COLOR: ${{ job.status }}
+                  SLACK_ICON: https://github.com/Iceberg9.png?size=48
+                  SLACK_LINK_NAMES: true
+                  SLACK_USERNAME: Icebot
+                  SLACK_TITLE: Deploy
+                  SLACK_MESSAGE: ":rocket: Deploy exitoso, ya en live para: <https://${{ secrets.SHOPIFY_SHOP_URL }}|*${{ github.event.repository.name }}*>.\n*Nombre*: ${{ github.event.commits[0].message }}.\nFavor de revisar <@U01S6JUAHU3> <@U02NZQQ1G78> <@UFVNW2U5Q>."
+                  SLACK_FOOTER: "Notifications by IceBot"
+                  SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+                  MSG_MINIMAL: true
+
+            - name: Slack Notification Error
+              if: cancelled() || failure()
+              uses: rtCamp/action-slack-notify@v2
+              env:
+                  SLACK_CHANNEL: github-bot
+                  SLACK_COLOR: ${{ job.status }}
+                  SLACK_ICON: https://github.com/Iceberg9.png?size=48
+                  SLACK_LINK_NAMES: true
+                  SLACK_USERNAME: Icebot
+                  SLACK_TITLE: Deploy
+                  SLACK_MESSAGE: ":warning: Algo salió mal en el Deploy a: <https://github.com/${{ github.repository }}|*${{ github.event.repository.name }}*>.\n*Nombre*: ${{ github.event.commits[0].message }}.\nFavor de revisar <@U069L3B5L>."
+                  SLACK_FOOTER: "Notifications by *IceBot*"
+                  SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+                  MSG_MINIMAL: actions url
