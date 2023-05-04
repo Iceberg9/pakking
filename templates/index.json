@@ -1,1 +1,236 @@
-{"sections":{"slideshow":{"type":"slideshow","blocks":{"slide-0":{"type":"slide","settings":{"image":"shopify:\/\/shop_images\/Cable-y-rafia-diseno.png","heading":"","heading_size":"medium","subheading":"","button_label":"","link":"","button_style_secondary":false,"box_align":"middle-center","show_text_box":false,"text_alignment":"center","image_overlay_opacity":0,"color_scheme":"background-1","text_alignment_mobile":"center"}}},"block_order":["slide-0"],"settings":{"layout":"full_bleed","slide_height":"small","slider_visual":"dots","auto_rotate":true,"change_slides_speed":3,"image_behavior":"none","show_text_below":false,"accessibility_info":"Slideshow about our brand."}},"57290c9c-c5db-4ad0-b73c-adfa4f700570":{"type":"multicolumn","blocks":{"template--18601499656471__57290c9c-c5db-4ad0-b73c-adfa4f700570-1681506375841d60c7-0":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/rope.png","title":"Resistencia","text":"","link_label":"","link":""}},"template--18601499656471__57290c9c-c5db-4ad0-b73c-adfa4f700570-1681506375841d60c7-1":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/spool.png","title":"Adaptabilidad","text":"","link_label":"","link":""}},"template--18601499656471__57290c9c-c5db-4ad0-b73c-adfa4f700570-1681506375841d60c7-2":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/shield.png","title":"Calidad garantizada","text":"","link_label":"","link":""}},"2ecf9e25-a1bd-4b2f-a6e7-916df42f212f":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/two-way.png","title":"Flexibilidad","text":"","link_label":"","link":""}},"b3c4cf4f-ca9b-4ce6-bac2-6cb301ed83a0":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/waiting.png","title":"Durabilidad","text":"","link_label":"","link":""}}},"block_order":["template--18601499656471__57290c9c-c5db-4ad0-b73c-adfa4f700570-1681506375841d60c7-0","template--18601499656471__57290c9c-c5db-4ad0-b73c-adfa4f700570-1681506375841d60c7-1","template--18601499656471__57290c9c-c5db-4ad0-b73c-adfa4f700570-1681506375841d60c7-2","2ecf9e25-a1bd-4b2f-a6e7-916df42f212f","b3c4cf4f-ca9b-4ce6-bac2-6cb301ed83a0"],"settings":{"title":"","heading_size":"h0","image_width":"third","image_ratio":"adapt","columns_desktop":5,"column_alignment":"center","background_style":"none","button_label":"","button_link":"","color_scheme":"background-1","columns_mobile":"1","swipe_on_mobile":false,"padding_top":36,"padding_bottom":36}},"ae519a49-d471-4ccd-b1f5-3f7b39cb8c35":{"type":"slideshow","blocks":{"template--18601499656471__ae519a49-d471-4ccd-b1f5-3f7b39cb8c35-1681757074f9ccc105-0":{"type":"slide","settings":{"image":"shopify:\/\/shop_images\/Captura_de_Pantalla_2023-04-17_a_la_s_12.35.04.png","heading":"Image slide","heading_size":"h1","subheading":"Tell your brand's story through images","button_label":"Button label","link":"","button_style_secondary":false,"box_align":"middle-center","show_text_box":true,"text_alignment":"center","image_overlay_opacity":0,"color_scheme":"background-1","text_alignment_mobile":"center"}},"template--18601499656471__ae519a49-d471-4ccd-b1f5-3f7b39cb8c35-1681757074f9ccc105-1":{"type":"slide","settings":{"image":"shopify:\/\/shop_images\/Captura_de_Pantalla_2023-04-17_a_la_s_12.35.13.png","heading":"Image slide","heading_size":"h1","subheading":"Tell your brand's story through images","button_label":"Button label","link":"","button_style_secondary":false,"box_align":"middle-center","show_text_box":true,"text_alignment":"center","image_overlay_opacity":0,"color_scheme":"background-1","text_alignment_mobile":"center"}}},"block_order":["template--18601499656471__ae519a49-d471-4ccd-b1f5-3f7b39cb8c35-1681757074f9ccc105-0","template--18601499656471__ae519a49-d471-4ccd-b1f5-3f7b39cb8c35-1681757074f9ccc105-1"],"settings":{"layout":"full_bleed","slide_height":"medium","slider_visual":"counter","auto_rotate":false,"change_slides_speed":5,"image_behavior":"none","show_text_below":true,"accessibility_info":"Slideshow about our brand"}},"rich-text":{"type":"rich-text","blocks":{"heading":{"type":"heading","settings":{"heading":"Venta de cuerda y rafia","heading_size":"h1"}},"281fefe2-3721-4f76-9fe0-9fc30e59d6b9":{"type":"text","settings":{"text":"<p>Nuestros productos son fabricados con materiales de alta y baja densidad, obteniendo así un producto resistente, flexible y con gran rendimiento.<\/p>"}}},"block_order":["heading","281fefe2-3721-4f76-9fe0-9fc30e59d6b9"],"settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"background-1","full_width":true,"padding_top":20,"padding_bottom":0}},"19930e96-68a5-4356-9d35-ad963048296f":{"type":"multirow","blocks":{"template--18601499656471__19930e96-68a5-4356-9d35-ad963048296f-16815062568de99f8d-0":{"type":"row","settings":{"image":"shopify:\/\/shop_images\/Rafia-Fibrilada-pakking-2.png","caption":"","heading":"Rafia","text":"<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>","button_label":"Ver más","button_link":""}},"template--18601499656471__19930e96-68a5-4356-9d35-ad963048296f-16815062568de99f8d-1":{"type":"row","settings":{"image":"shopify:\/\/shop_images\/Cable-6-a-25-pakking-2.png","caption":"","heading":"Cuerda","text":"<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>","button_label":"Ver más","button_link":""}}},"block_order":["template--18601499656471__19930e96-68a5-4356-9d35-ad963048296f-16815062568de99f8d-0","template--18601499656471__19930e96-68a5-4356-9d35-ad963048296f-16815062568de99f8d-1"],"settings":{"image_height":"medium","desktop_image_width":"medium","heading_size":"h1","text_style":"body","button_style":"secondary","desktop_content_position":"middle","desktop_content_alignment":"left","image_layout":"alternate-left","section_color_scheme":"background-1","row_color_scheme":"background-1","mobile_content_alignment":"left","padding_top":8,"padding_bottom":36}},"f8187927-bd0a-4a4f-819b-919919c2f8c4":{"type":"rich-text","blocks":{"template--18601499656471__f8187927-bd0a-4a4f-819b-919919c2f8c4-16817581549fea96f7-0":{"type":"heading","settings":{"heading":"Entregamos en toda la República Mexicana","heading_size":"h2"}}},"block_order":["template--18601499656471__f8187927-bd0a-4a4f-819b-919919c2f8c4-16817581549fea96f7-0"],"settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"background-2","full_width":true,"padding_top":20,"padding_bottom":20}},"9d69200d-a6c6-4e97-b2e2-944906523b18":{"type":"collection-list","blocks":{"template--18601499656471__9d69200d-a6c6-4e97-b2e2-944906523b18-168175830046f41c63-0":{"type":"featured_collection","settings":{"collection":""}},"template--18601499656471__9d69200d-a6c6-4e97-b2e2-944906523b18-168175830046f41c63-1":{"type":"featured_collection","settings":{"collection":""}},"template--18601499656471__9d69200d-a6c6-4e97-b2e2-944906523b18-168175830046f41c63-2":{"type":"featured_collection","settings":{"collection":""}}},"block_order":["template--18601499656471__9d69200d-a6c6-4e97-b2e2-944906523b18-168175830046f41c63-0","template--18601499656471__9d69200d-a6c6-4e97-b2e2-944906523b18-168175830046f41c63-1","template--18601499656471__9d69200d-a6c6-4e97-b2e2-944906523b18-168175830046f41c63-2"],"settings":{"title":"Collections","heading_size":"h1","image_ratio":"square","columns_desktop":3,"color_scheme":"background-1","show_view_all":false,"columns_mobile":"1","swipe_on_mobile":false,"padding_top":36,"padding_bottom":36}}},"order":["slideshow","57290c9c-c5db-4ad0-b73c-adfa4f700570","ae519a49-d471-4ccd-b1f5-3f7b39cb8c35","rich-text","19930e96-68a5-4356-9d35-ad963048296f","f8187927-bd0a-4a4f-819b-919919c2f8c4","9d69200d-a6c6-4e97-b2e2-944906523b18"]}
+{
+  "sections": {
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "slide-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Cable-y-rafia-diseno.png",
+            "heading": "",
+            "heading_size": "medium",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide-0"
+      ],
+      "settings": {
+        "layout": "grid",
+        "slide_height": "small",
+        "slider_visual": "dots",
+        "auto_rotate": true,
+        "change_slides_speed": 3,
+        "image_behavior": "none",
+        "show_text_below": false,
+        "accessibility_info": "Slideshow about our brand."
+      }
+    },
+    "57290c9c-c5db-4ad0-b73c-adfa4f700570": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--18601499656471__57290c9c-c5db-4ad0-b73c-adfa4f700570-1681506375841d60c7-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/rope.png",
+            "title": "Resistencia",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--18601499656471__57290c9c-c5db-4ad0-b73c-adfa4f700570-1681506375841d60c7-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/spool.png",
+            "title": "Adaptabilidad",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--18601499656471__57290c9c-c5db-4ad0-b73c-adfa4f700570-1681506375841d60c7-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/shield.png",
+            "title": "Calidad garantizada",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "2ecf9e25-a1bd-4b2f-a6e7-916df42f212f": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/two-way.png",
+            "title": "Flexibilidad",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "b3c4cf4f-ca9b-4ce6-bac2-6cb301ed83a0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/waiting.png",
+            "title": "Durabilidad",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18601499656471__57290c9c-c5db-4ad0-b73c-adfa4f700570-1681506375841d60c7-0",
+        "template--18601499656471__57290c9c-c5db-4ad0-b73c-adfa4f700570-1681506375841d60c7-1",
+        "template--18601499656471__57290c9c-c5db-4ad0-b73c-adfa4f700570-1681506375841d60c7-2",
+        "2ecf9e25-a1bd-4b2f-a6e7-916df42f212f",
+        "b3c4cf4f-ca9b-4ce6-bac2-6cb301ed83a0"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h0",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 5,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich-text": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Soluciones de empaque",
+            "heading_size": "h1"
+          }
+        },
+        "281fefe2-3721-4f76-9fe0-9fc30e59d6b9": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Nuestros productos son fabricados con materiales de alta y baja densidad, obteniendo así un producto resistente, flexible y con gran rendimiento.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "281fefe2-3721-4f76-9fe0-9fc30e59d6b9"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "19930e96-68a5-4356-9d35-ad963048296f": {
+      "type": "multirow",
+      "blocks": {
+        "template--18601499656471__19930e96-68a5-4356-9d35-ad963048296f-16815062568de99f8d-0": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rafia-Fibrilada-pakking-2.png",
+            "caption": "",
+            "heading": "Rafia",
+            "text": "",
+            "button_label": "Ver más",
+            "button_link": ""
+          }
+        },
+        "template--18601499656471__19930e96-68a5-4356-9d35-ad963048296f-16815062568de99f8d-1": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Cable-6-a-25-pakking-2.png",
+            "caption": "",
+            "heading": "Cuerda",
+            "text": "",
+            "button_label": "Ver más",
+            "button_link": ""
+          }
+        },
+        "8a886215-e35e-40c9-88cf-9592ca7133be": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/carefully-placing-a-package-into-packing-peanuts.jpg",
+            "caption": "",
+            "heading": "Stretch Film",
+            "text": "",
+            "button_label": "Ver más",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18601499656471__19930e96-68a5-4356-9d35-ad963048296f-16815062568de99f8d-0",
+        "template--18601499656471__19930e96-68a5-4356-9d35-ad963048296f-16815062568de99f8d-1",
+        "8a886215-e35e-40c9-88cf-9592ca7133be"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "background-1",
+        "row_color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 8,
+        "padding_bottom": 36
+      }
+    },
+    "f8187927-bd0a-4a4f-819b-919919c2f8c4": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18601499656471__f8187927-bd0a-4a4f-819b-919919c2f8c4-16817581549fea96f7-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Entregamos en toda la República Mexicana",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "template--18601499656471__f8187927-bd0a-4a4f-819b-919919c2f8c4-16817581549fea96f7-0"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    }
+  },
+  "order": [
+    "slideshow",
+    "57290c9c-c5db-4ad0-b73c-adfa4f700570",
+    "rich-text",
+    "19930e96-68a5-4356-9d35-ad963048296f",
+    "f8187927-bd0a-4a4f-819b-919919c2f8c4"
+  ]
+}
