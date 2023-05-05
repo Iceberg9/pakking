@@ -7,15 +7,15 @@
         "e9e5ad33-6b8d-421d-b098-c5f21b3ef867": {
           "type": "point",
           "settings": {
-            "title": "Point 1",
-            "link": "shopify:\/\/collections\/cable",
-            "link_title": "Cuerdas",
-            "product": "",
-            "collection": "rafia",
-            "position_x_desktop": 0,
-            "position_y_desktop": 0,
-            "position_x_mobile": 33,
-            "position_y_mobile": 10
+            "title": "Cuerda negra",
+            "link": "shopify:\/\/products\/cuerda-ultraresistente-filtro-uv-de-polipropileno-1050m",
+            "link_title": "Cuerda negra",
+            "product": "cuerda-ultraresistente-filtro-uv-de-polipropileno-1050m",
+            "collection": "",
+            "position_x_desktop": 49,
+            "position_y_desktop": 27,
+            "position_x_mobile": 44,
+            "position_y_mobile": 35
           }
         }
       },
