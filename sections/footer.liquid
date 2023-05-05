@@ -335,16 +335,33 @@
     <div class="footer__content-bottom-wrapper page-width{% if section.settings.enable_country_selector == false and section.settings.enable_language_selector == false %} footer__content-bottom-wrapper--center{% endif %}">
       <div class="footer__copyright caption">
         <small class="copyright__content"
-          >&copy; {{ 'now' | date: '%Y' }}, {{ shop.name | link_to: routes.root_url -}}
-        </small>
-        <small class="copyright__content">{{ powered_by_link }}</small>
+          >&copy; {{ 'now' | date: '%Y' }}, {{ shop.name }}
+      </small>
+        
+        
+
+        <!-- small class="copyright__content">  Tecnología de Shopify </small -->
+
+        {% comment %}
+        <small class="copyright__content"> t {{ powered_by_link }}</small >
+        {% endcomment %}
+        
+        
         {%- if section.settings.show_policy -%}
           <ul class="policies list-unstyled">
             {%- for policy in shop.policies -%}
               {%- if policy != blank -%}
                 <li>
                   <small class="copyright__content"
-                    ><a href="{{ policy.url }}">{{ policy.title }}</a></small
+                    >
+
+                    {% comment %}
+                    <a href="{{ policy.url }}">{{ policy.title }}</a>
+                    {% endcomment %}
+
+                    <a > t {{ policy.title }}</a>
+                    
+                  </small
                   >
                 </li>
               {%- endif -%}
@@ -353,8 +370,32 @@
         {%- endif -%}
       </div>
     </div>
+
+      <style>
+    .footer-ice {
+      margin-bottom: -43px;
+    }
+    .footer-ice a svg {
+      position: relative;
+      margin: auto;
+      display: block;
+      top: 0;
+      width: 40px;
+      fill: #2a3f66;
+    }
+    </style> 
+    <div class="footer-ice">
+      <a href="https://ice9.mx/?utm_campaing=tipIceberg9&utm_medium=footer&utm_source=https://pakking.mx">
+          <svg xmlns="http://www.w3.org/2000/svg" class="" style="enable-background: new 0 0 461.5 407.8" xml:space="preserve" viewBox="132.1 120.3 197.3 167.2">
+        <path d="m226.8 120.3-23.1 84.5-24.6-12-47 94.7h197.3L226.8 120.3z" style="fill:"></path>
+          </svg>
+      </a>
+    </div>
+
   </div>
 </footer>
+
+
 
 {%- if section.settings.enable_country_selector or section.settings.enable_language_selector -%}
   <script src="{{ 'localization-form.js' | asset_url }}" defer="defer"></script>
