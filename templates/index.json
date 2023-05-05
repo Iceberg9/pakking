@@ -1,7 +1,39 @@
 {
   "sections": {
+    "2171a4a0-8783-4c65-92cb-31f63db852bb": {
+      "type": "hotsposts",
+      "blocks": {
+        "e9e5ad33-6b8d-421d-b098-c5f21b3ef867": {
+          "type": "point",
+          "settings": {
+            "title": "Point 1",
+            "link": "shopify:\/\/collections\/cable",
+            "link_title": "Cuerdas",
+            "product": "",
+            "collection": "rafia",
+            "position_x_desktop": 0,
+            "position_y_desktop": 0,
+            "position_x_mobile": 33,
+            "position_y_mobile": 10
+          }
+        }
+      },
+      "block_order": [
+        "e9e5ad33-6b8d-421d-b098-c5f21b3ef867"
+      ],
+      "settings": {
+        "background_image": "shopify:\/\/shop_images\/Cable-y-rafia-diseno.png",
+        "background_image_responsive": "shopify:\/\/shop_images\/Cable-y-rafia-diseno.png",
+        "section_height": 500,
+        "section_height_responsive": 300,
+        "background_size": "cover",
+        "section_width": "full-width",
+        "background_position": "center center"
+      }
+    },
     "slideshow": {
       "type": "slideshow",
+      "disabled": true,
       "blocks": {
         "slide-0": {
           "type": "slide",
@@ -227,6 +259,7 @@
     }
   },
   "order": [
+    "2171a4a0-8783-4c65-92cb-31f63db852bb",
     "slideshow",
     "57290c9c-c5db-4ad0-b73c-adfa4f700570",
     "rich-text",
