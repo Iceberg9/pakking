@@ -17,10 +17,25 @@
             "position_x_mobile": 44,
             "position_y_mobile": 35
           }
+        },
+        "7b3cb008-f1b0-4b5b-864e-ee0d349ce01f": {
+          "type": "point",
+          "settings": {
+            "title": "Rafia Roja",
+            "link": "shopify:\/\/products\/rafia-pakking-calibre-3-color-natural-de-polipropileno",
+            "link_title": "",
+            "product": "rafia-pakking-calibre-3-color-natural-de-polipropileno",
+            "collection": "",
+            "position_x_desktop": 39,
+            "position_y_desktop": 62,
+            "position_x_mobile": 32,
+            "position_y_mobile": 60
+          }
         }
       },
       "block_order": [
-        "e9e5ad33-6b8d-421d-b098-c5f21b3ef867"
+        "e9e5ad33-6b8d-421d-b098-c5f21b3ef867",
+        "7b3cb008-f1b0-4b5b-864e-ee0d349ce01f"
       ],
       "settings": {
         "background_image": "shopify:\/\/shop_images\/Cable-y-rafia-diseno.png",
