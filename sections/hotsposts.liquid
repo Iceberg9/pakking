@@ -1,0 +1,260 @@
+{% liquid
+  assign settings = section.settings
+  assign classBlock = 'hospost_point'
+%}
+
+<section id="{{ section.id }}--hotspot" class="background-section">
+  <div class="points-wrapper {% if section.section_width == 'full-width' %}page-width{% else %}box-container{% endif %}">
+    {% for block in section.blocks %}
+      {% assign block_settings = block.settings %}
+      <div id="{{ classBlock }}-block{{ forloop.index0 }}" class="{{ classBlock }}-container">
+        <span class="{{ classBlock }}--bubble"></span>
+        <div class="{{ classBlock }}-block">
+          {% if block_settings.product != blank %}
+            {% assign product = all_products[block_settings.product] %}
+            <div class="block__product">
+              <h6 class="hotspot-title">{{ product.title  }}</h6>
+              {%- render 'price',
+                product: product,
+                use_variant: true,
+                show_badges: true,
+                price_class: 'price--large price--hotspots'
+              -%}
+              <a href="{{ product.url }}">{{ block_settings.link_title | default: 'Comprar' }}</a>
+            </div>
+          {% elsif block_settings.collection != blank  %}
+            <div class="collection_block">
+              {% assign collection = block_settings.collection %}
+              <h6 class="hotspot-title">{{ collection.title }}</h6>
+              <a href="{{ collection.url }}">{{ block_settings.link_title | default: 'Ver más' }}</a>
+            </div>
+          {% else %}
+            <div class="default__block">
+              <h6 class="hotspot-title">{{ block_settings.title }}</h6>
+              <a href="{{ block_settings.link }}">
+                {{ block_settings.link_title | default: 'Comprar' }}
+              </a>
+            </div>
+          {% endif %}
+        </div>
+        <style>
+          #{{ classBlock }}-block{{ forloop.index0 }}{
+            position: absolute;
+            left: {{ block_settings.position_x_desktop }}%;
+            top: {{ block_settings.position_y_desktop }}%;
+          }
+          @media screen and (max-width: 968px){
+            #{{ classBlock }}-block{{ forloop.index0 }}{
+              left: {{ block_settings.position_x_mobile }}%;
+              top: {{ block_settings.position_y_mobile }}%;
+            }
+          }
+        </style>
+      </div>
+    {% endfor %}
+  </div>
+</section>
+
+<style>
+  #{{ section.id }}--hotspot{
+    background-position: {{ settings.background_position }};
+    background-image: url({{ settings.background_image | img_url: 'master' }});
+    background-size: {{ settings.background_size }};
+    background-repeat: no-repeat;
+    height: {{ settings.section_height }}px;
+    position: relative;
+  }
+
+  @media (max-width: 767px) {
+    #{{ section.id }}--hotspot {
+      background-image: url({{ settings.background_image_responsive | img_url: 'master' }}) !important;
+      height: {{ settings.section_height_responsive }}px !important;
+    }
+  }
+</style>
+
+{% schema %}
+{
+  "name": "Section Background",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "background_image",
+      "label": "Imagen de fondo"
+    },
+    {
+      "type": "image_picker",
+      "id": "background_image_responsive",
+      "label": "Imagen de fondo Responsive"
+    },
+    {
+      "type": "range",
+      "id": "section_height",
+      "label": "Altura de la sección (CSS)",
+      "default": 500,
+      "min": 100,
+      "max": 1000,
+      "step": 50
+    },
+    {
+      "type": "range",
+      "id": "section_height_responsive",
+      "label": "Altura de la sección (Responsive)",
+      "default": 300,
+      "min": 100,
+      "max": 800,
+      "step": 50
+    },
+    {
+      "type": "select",
+      "id": "background_size",
+      "label": "Tamaño de la imagen de fondo",
+      "options": [
+        {
+          "value": "cover",
+          "label": "Cubrir (Cover)"
+        },
+        {
+          "value": "contain",
+          "label": "Contener (Contain)"
+        },
+        {
+          "value": "auto",
+          "label": "Automático (Auto)"
+        }
+      ],
+      "default": "cover"
+    },
+    {
+      "type": "radio",
+      "id": "section_width",
+      "label": "Ancho de la sección",
+      "options": [
+        {
+          "value": "full-width",
+          "label": "Ancho completo (Full Width)"
+        },
+        {
+          "value": "box-container",
+          "label": "Contenedor limitado (Box Container)"
+        }
+      ],
+      "default": "full-width"
+    },
+    {
+      "type": "select",
+      "id": "background_position",
+      "label": "Posición del fondo",
+      "options": [
+        {
+          "value": "center top",
+          "label": "Centro Arriba"
+        },
+        {
+          "value": "center center",
+          "label": "Centro Centro"
+        },
+        {
+          "value": "center bottom",
+          "label": "Centro Abajo"
+        },
+        {
+          "value": "left top",
+          "label": "Izquierda Arriba"
+        },
+        {
+          "value": "left center",
+          "label": "Izquierda Centro"
+        },
+        {
+          "value": "left bottom",
+          "label": "Izquierda Abajo"
+        },
+        {
+          "value": "right top",
+          "label": "Derecha Arriba"
+        },
+        {
+          "value": "right center",
+          "label": "Derecha Centro"
+        },
+        {
+          "value": "right bottom",
+          "label": "Derecha Abajo"
+        }
+      ],
+      "default": "center center"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "point",
+      "name": "Point",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Título"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Enlace"
+        },
+        {
+          "type": "text",
+          "id": "link_title",
+          "label": "Título del Enlace"
+        },
+        {
+          "type": "product",
+          "id": "product",
+          "label": "Selecciona el product"
+        },
+        {
+          "type": "collection",
+          "id": "collection",
+          "label": "Selecciona la colección"
+        },
+        {
+          "type": "range",
+          "id": "position_x_desktop",
+          "label": "Posición en el eje X (Desktop)",
+          "default": 0,
+          "min": 0,
+          "max": 100
+        },
+        {
+          "type": "range",
+          "id": "position_y_desktop",
+          "label": "Posición en el eje Y (Desktop)",
+          "default": 0,
+          "min": 0,
+          "max": 100
+        },
+        {
+          "type": "range",
+          "id": "position_x_mobile",
+          "label": "Posición en el eje X (Mobile)",
+          "default": 0,
+          "min": 0,
+          "max": 100
+        },
+        {
+          "type": "range",
+          "id": "position_y_mobile",
+          "label": "Posición en el eje Y (Mobile)",
+          "default": 0,
+          "min": 0,
+          "max": 100
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Hotspots"
+    }
+  ]
+}
+{% endschema %}

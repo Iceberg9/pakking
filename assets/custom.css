@@ -1,0 +1,131 @@
+:root{
+  --color-background: 255, 255, 255;
+  --color-foreground: 33, 35, 38;
+  --duration-default: .25s;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 0.5;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 1;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+  100% {
+    transform: scale(1);
+    opacity: 0.5;
+  }
+}
+
+.hospost_point-block::after {
+  content: "";
+  display: block;
+  border-left: 0.6rem solid transparent;
+  border-right: 0.6rem solid transparent;
+  border-bottom: 0.6rem solid rgb(var(--color-background));
+  position: absolute;
+  top: -0.6rem;
+}
+.hospost_point-block {
+  z-index: 1;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 18rem;
+  padding: 20px;
+  border-radius: 1.2rem;
+  background-color: rgb(var(--color-background));
+  box-shadow: 0 1rem 2rem rgba(var(--color-foreground),.1),0 2rem 4rem rgba(var(--color-foreground),.2);
+  top: 40px;
+  left: -6.7rem;
+  opacity: 0;
+  visibility: hidden;
+  animation: hotspot-zoom-out var(--duration-default) ease forwards;
+  -webkit-animation: hotspot-zoom-out var(--duration-default) ease forwards;
+  transition: all .3s ease-in-out;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+}
+
+.hospost_point--bubble {
+  display: block;
+  cursor: pointer;
+}
+
+.hospost_point--bubble::before {
+  content: '';
+  width: 60px;
+  height: 60px;
+  background-color: #0000008a;
+  position: relative;
+  top: -34px;
+  left: -4px;
+  z-index: 1;
+  display: inline-flex;
+  border-radius: 60px;
+  opacity: 0.5;
+  animation: pulse 2s ease-in-out infinite;
+  -webkit-animation: pulse 2s ease-in-out infinite;
+}
+
+.hospost_point--bubble::after {
+  width: 30px;
+  height: 30px;
+  background-color: #000000;
+  content: '';
+  position: absolute;
+  top: -20px;
+  left: 10px;
+  z-index: 2;
+  display: inline-flex;
+  border-radius: 70px;
+}
+
+.hospost_point-container.active .hospost_point-block {
+  opacity: 1;
+  visibility: visible;
+}
+
+h6.hotspot-title {
+  font-size: 13px;
+  color: #000;
+  line-height: 18px;
+  text-align: left;
+  margin: 0 0 10px;
+}
+
+.hospost_point-block a {
+  text-align: center;
+  display: block;
+  text-transform: uppercase;
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 6px;
+}
+
+.price--hotspots {
+  font-size: 13px !important;
+  margin-bottom: 5px !important;
+  font-family: 'Cabin', sans-serif;
+}
+
+.default__block {
+  width: 100%;
+}
+
+.collection_block {
+  width: 100%;
+}
+
+

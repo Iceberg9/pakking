@@ -1063,3 +1063,20 @@ class ProductRecommendations extends HTMLElement {
 }
 
 customElements.define('product-recommendations', ProductRecommendations);
+
+const addDelayToRemoveClass = () => {
+  document.querySelectorAll('.hospost_point-container')?.forEach( point => {
+    point.addEventListener('mouseenter', () => {
+      point.classList.add('active');
+    })
+
+    point.addEventListener('mouseleave', () => {
+      setTimeout(() => {
+        point.classList.remove('active');
+      }, 1200);
+    })
+    
+  })
+}
+
+document.addEventListener('DOMContentLoaded', addDelayToRemoveClass);
