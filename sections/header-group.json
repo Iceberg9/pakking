@@ -4,6 +4,21 @@
   "sections": {
     "announcement-bar": {
       "type": "announcement-bar",
+      "blocks": {
+        "a1fa16b7-6743-4ebb-b6f3-f6c6fd6b3850": {
+          "type": "announcement",
+          "disabled": true,
+          "settings": {
+            "text": "Welcome to our store",
+            "text_alignment": "center",
+            "color_scheme": "accent-1",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "a1fa16b7-6743-4ebb-b6f3-f6c6fd6b3850"
+      ],
       "settings": {
       }
     },
