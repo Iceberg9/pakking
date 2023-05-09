@@ -76,7 +76,7 @@
     "blog_card_shadow_horizontal_offset": 0,
     "blog_card_shadow_vertical_offset": 0,
     "blog_card_shadow_blur": 0,
-    "text_boxes_border_thickness": 0,
+    "text_boxes_border_thickness": 14,
     "text_boxes_border_opacity": 0,
     "text_boxes_radius": 0,
     "text_boxes_shadow_opacity": 0,
