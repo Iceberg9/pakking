@@ -1,1 +1,128 @@
-{"sections":{"main":{"type":"main-page","settings":{"padding_top":28,"padding_bottom":28}},"5d30181a-ce13-4d9a-8ccb-a1137c642adf":{"type":"image-with-text","blocks":{"template--18637546029335__5d30181a-ce13-4d9a-8ccb-a1137c642adf-168176346644f6251a-0":{"type":"heading","settings":{"heading":"LA FAMILIA MACAULIFFE","heading_size":"h1"}},"template--18637546029335__5d30181a-ce13-4d9a-8ccb-a1137c642adf-168176346644f6251a-1":{"type":"text","settings":{"text":"<p>VP de Mercadotecnia; Peter, Presidente; Edmond, Planificador Corporativo; Frank, Vicepresidente; Margaret, Director General; Patrick.<\/p><p>Con más de 3,000 empleados en América, Pakking® tiene centros de distribución cerca de Chicago, IL; Mineápolis, MN; Allentown, PA; Los Ángeles, CA; Atlanta, GA; Dallas, TX; Seattle, WA y Reno, NV. También hay ubicaciones en Toronto y Edmonton, Canadá. Y ahora abre sus operaciones en México con un centro de distribución y dentro de poco, en Mexicali y Monterrey.<\/p>","text_style":"body"}}},"block_order":["template--18637546029335__5d30181a-ce13-4d9a-8ccb-a1137c642adf-168176346644f6251a-0","template--18637546029335__5d30181a-ce13-4d9a-8ccb-a1137c642adf-168176346644f6251a-1"],"settings":{"image":"shopify:\/\/shop_images\/Captura_de_Pantalla_2023-04-17_a_la_s_14.32.43.png","height":"adapt","desktop_image_width":"small","layout":"text_first","desktop_content_position":"top","desktop_content_alignment":"left","content_layout":"no-overlap","color_scheme":"background-1","image_behavior":"none","mobile_content_alignment":"left","padding_top":36,"padding_bottom":36}},"8489bd05-16f3-4b49-84ed-d67f7b2a33bc":{"type":"image-with-text","blocks":{"template--18637546029335__8489bd05-16f3-4b49-84ed-d67f7b2a33bc-168176346644f6251a-0":{"type":"heading","settings":{"heading":"MISIÓN DE PAKKING","heading_size":"h1"}},"template--18637546029335__8489bd05-16f3-4b49-84ed-d67f7b2a33bc-168176346644f6251a-1":{"type":"text","settings":{"text":"<p>Creemos que un buen servicio significa ofrecer la mejor calidad y la mejor selección de productos con el servicio más rápido de la industria.<\/p><p>Como socios a largo plazo, esperamos exceder las expectativas de nuestros clientes, entregando cada pedido con velocidad, pasión y excelencia operativa.<\/p>","text_style":"body"}}},"block_order":["template--18637546029335__8489bd05-16f3-4b49-84ed-d67f7b2a33bc-168176346644f6251a-0","template--18637546029335__8489bd05-16f3-4b49-84ed-d67f7b2a33bc-168176346644f6251a-1"],"settings":{"image":"shopify:\/\/shop_images\/Captura_de_Pantalla_2023-04-17_a_la_s_14.32.52.png","height":"adapt","desktop_image_width":"medium","layout":"image_first","desktop_content_position":"top","desktop_content_alignment":"left","content_layout":"no-overlap","color_scheme":"background-1","image_behavior":"none","mobile_content_alignment":"left","padding_top":36,"padding_bottom":36}},"0b72306d-64a3-4e59-862a-4117bc2014f9":{"type":"image-with-text","blocks":{"template--18637546029335__0b72306d-64a3-4e59-862a-4117bc2014f9-168176346644f6251a-0":{"type":"heading","settings":{"heading":"HISTORIA DE LA EMPRESA","heading_size":"h1"}},"template--18637546029335__0b72306d-64a3-4e59-862a-4117bc2014f9-168176346644f6251a-1":{"type":"text","settings":{"text":"<p>Al reconocer la necesidad local de un distribuidor de suministros de empaque, Edmont y Margaret MaCauliffe comenzaron Pakking® desde su sótano en 1980. Los MaCauliffe. quienes comenzaron con la cortadora de cajas H-101 (que aún se ofrece hoy), hicieron crecer su negocio más allá de sus propias expectativas.<\/p><p>Hoy, Pakking® es el distribuidor líder de suministros de empaque, embalaje e industriales de América. Para satisfacer las necesidades del cliente, se han expandido las líneas de productos para incluir materiales para menudeo, de seguridad, manejo de materiales, industriales y de embalaje.<\/p><p>Contamos con 2,000 toneladas de inventario en nuestros centros de distribución. Con entregas en 24 horas, desde un atado hasta un tráiler de producto.<\/p>","text_style":"body"}}},"block_order":["template--18637546029335__0b72306d-64a3-4e59-862a-4117bc2014f9-168176346644f6251a-0","template--18637546029335__0b72306d-64a3-4e59-862a-4117bc2014f9-168176346644f6251a-1"],"settings":{"image":"shopify:\/\/shop_images\/Captura_de_Pantalla_2023-04-17_a_la_s_14.33.01.png","height":"medium","desktop_image_width":"medium","layout":"text_first","desktop_content_position":"top","desktop_content_alignment":"left","content_layout":"no-overlap","color_scheme":"background-1","image_behavior":"none","mobile_content_alignment":"left","padding_top":36,"padding_bottom":36}}},"order":["main","5d30181a-ce13-4d9a-8ccb-a1137c642adf","8489bd05-16f3-4b49-84ed-d67f7b2a33bc","0b72306d-64a3-4e59-862a-4117bc2014f9"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "5d30181a-ce13-4d9a-8ccb-a1137c642adf": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--18637546029335__5d30181a-ce13-4d9a-8ccb-a1137c642adf-168176346644f6251a-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Nuestra Visión",
+            "heading_size": "h1"
+          }
+        },
+        "template--18637546029335__5d30181a-ce13-4d9a-8ccb-a1137c642adf-168176346644f6251a-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>VP de Mercadotecnia; Peter, Presidente; Edmond, Planificador Corporativo; Frank, Vicepresidente; Margaret, Director General; Patrick.<\/p><p>Con más de 3,000 empleados en América, Pakking® tiene centros de distribución cerca de Chicago, IL; Mineápolis, MN; Allentown, PA; Los Ángeles, CA; Atlanta, GA; Dallas, TX; Seattle, WA y Reno, NV. También hay ubicaciones en Toronto y Edmonton, Canadá. Y ahora abre sus operaciones en México con un centro de distribución y dentro de poco, en Mexicali y Monterrey.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--18637546029335__5d30181a-ce13-4d9a-8ccb-a1137c642adf-168176346644f6251a-0",
+        "template--18637546029335__5d30181a-ce13-4d9a-8ccb-a1137c642adf-168176346644f6251a-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Captura_de_Pantalla_2023-04-17_a_la_s_14.32.43.png",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "8489bd05-16f3-4b49-84ed-d67f7b2a33bc": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--18637546029335__8489bd05-16f3-4b49-84ed-d67f7b2a33bc-168176346644f6251a-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "MISIÓN DE PAKKING",
+            "heading_size": "h1"
+          }
+        },
+        "template--18637546029335__8489bd05-16f3-4b49-84ed-d67f7b2a33bc-168176346644f6251a-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Creemos que un buen servicio significa ofrecer la mejor calidad y la mejor selección de productos con el servicio más rápido de la industria.<\/p><p>Como socios a largo plazo, esperamos exceder las expectativas de nuestros clientes, entregando cada pedido con velocidad, pasión y excelencia operativa.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--18637546029335__8489bd05-16f3-4b49-84ed-d67f7b2a33bc-168176346644f6251a-0",
+        "template--18637546029335__8489bd05-16f3-4b49-84ed-d67f7b2a33bc-168176346644f6251a-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Captura_de_Pantalla_2023-04-17_a_la_s_14.32.52.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "0b72306d-64a3-4e59-862a-4117bc2014f9": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--18637546029335__0b72306d-64a3-4e59-862a-4117bc2014f9-168176346644f6251a-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "HISTORIA DE LA EMPRESA",
+            "heading_size": "h1"
+          }
+        },
+        "template--18637546029335__0b72306d-64a3-4e59-862a-4117bc2014f9-168176346644f6251a-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Al reconocer la necesidad local de un distribuidor de suministros de empaque, Edmont y Margaret MaCauliffe comenzaron Pakking® desde su sótano en 1980. Los MaCauliffe. quienes comenzaron con la cortadora de cajas H-101 (que aún se ofrece hoy), hicieron crecer su negocio más allá de sus propias expectativas.<\/p><p>Hoy, Pakking® es el distribuidor líder de suministros de empaque, embalaje e industriales de América. Para satisfacer las necesidades del cliente, se han expandido las líneas de productos para incluir materiales para menudeo, de seguridad, manejo de materiales, industriales y de embalaje.<\/p><p>Contamos con 2,000 toneladas de inventario en nuestros centros de distribución. Con entregas en 24 horas, desde un atado hasta un tráiler de producto.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--18637546029335__0b72306d-64a3-4e59-862a-4117bc2014f9-168176346644f6251a-0",
+        "template--18637546029335__0b72306d-64a3-4e59-862a-4117bc2014f9-168176346644f6251a-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Captura_de_Pantalla_2023-04-17_a_la_s_14.33.01.png",
+        "height": "medium",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "5d30181a-ce13-4d9a-8ccb-a1137c642adf",
+    "8489bd05-16f3-4b49-84ed-d67f7b2a33bc",
+    "0b72306d-64a3-4e59-862a-4117bc2014f9"
+  ]
+}
