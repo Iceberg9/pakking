@@ -197,10 +197,10 @@
         "template--18601499656471__19930e96-68a5-4356-9d35-ad963048296f-16815062568de99f8d-0": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Rafia-Fibrilada-pakking-2.png",
+            "image": "shopify:\/\/shop_images\/rafia_cuerda_plastica_resistente_calibre_2_colores.png",
             "caption": "",
             "heading": "Rafia",
-            "text": "",
+            "text": "<p>Calidad y fuerza en cada centímetro<\/p>",
             "button_label": "Ver más",
             "button_link": "shopify:\/\/collections\/rafia"
           }
@@ -208,10 +208,10 @@
         "template--18601499656471__19930e96-68a5-4356-9d35-ad963048296f-16815062568de99f8d-1": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Cable-6-a-25-pakking-2.png",
+            "image": "shopify:\/\/shop_images\/IMG_5552-Edit.jpg",
             "caption": "",
             "heading": "Cuerda",
-            "text": "",
+            "text": "<p>Calibres de alta resistencia<\/p>",
             "button_label": "Ver más",
             "button_link": "shopify:\/\/collections\/cable"
           }
@@ -222,7 +222,7 @@
             "image": "shopify:\/\/shop_images\/IMG_5453-Edit_1.jpg",
             "caption": "",
             "heading": "Stretch Film",
-            "text": "<p>Calibres de alta resistencia<\/p>",
+            "text": "<p>Seguridad y protección para tus envíos<\/p>",
             "button_label": "Ver más",
             "button_link": "shopify:\/\/collections\/stretch-film"
           }
