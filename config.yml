@@ -10,7 +10,7 @@ live:
 
 dev:
   password: shptka_afa3f7bc04e29cfd648d416e1775a5a4
-  theme_id: "148902314263"
+  theme_id: "149155512599"
   store: pakkingmx.myshopify.com
   ignore_files:
   - assets/*.map

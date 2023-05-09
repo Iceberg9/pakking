@@ -3,39 +3,40 @@
   assign classBlock = 'hospost_point'
 %}
 
-<section id="{{ section.id }}--hotspot" class="background-section">
-  <div class="points-wrapper {% if section.section_width == 'full-width' %}page-width{% else %}box-container{% endif %}">
+<section id="{{ section.id }}--hotspot" class="background-section {% if section.section_width == 'full-width' %}page-width{% else %}box-container{% endif %}">
+  <div class="points-wrapper">
     {% for block in section.blocks %}
       {% assign block_settings = block.settings %}
       <div id="{{ classBlock }}-block{{ forloop.index0 }}" class="{{ classBlock }}-container">
         <span class="{{ classBlock }}--bubble"></span>
         <div class="{{ classBlock }}-block">
-          {% if block_settings.product != blank %}
-            {% assign product = all_products[block_settings.product] %}
-            <div class="block__product">
-              <h6 class="hotspot-title">{{ product.title  }}</h6>
-              {%- render 'price',
-                product: product,
-                use_variant: true,
-                show_badges: true,
-                price_class: 'price--large price--hotspots'
-              -%}
-              <a href="{{ product.url }}">{{ block_settings.link_title | default: 'Comprar' }}</a>
-            </div>
-          {% elsif block_settings.collection != blank  %}
-            <div class="collection_block">
-              {% assign collection = block_settings.collection %}
-              <h6 class="hotspot-title">{{ collection.title }}</h6>
-              <a href="{{ collection.url }}">{{ block_settings.link_title | default: 'Ver más' }}</a>
-            </div>
-          {% else %}
-            <div class="default__block">
-              <h6 class="hotspot-title">{{ block_settings.title }}</h6>
-              <a href="{{ block_settings.link }}">
-                {{ block_settings.link_title | default: 'Comprar' }}
-              </a>
-            </div>
-          {% endif %}
+          {% case block.type %}
+            {% when 'point' %}
+              <div class="default__block">
+                <h6 class="hotspot-title">{{ block_settings.title }}</h6>
+                <a href="{{ block_settings.link }}">
+                  {{ block_settings.link_title | default: 'Comprar' }}
+                </a>
+              </div>
+            {% when 'pointProduct' %}
+              {% assign product = all_products[block_settings.product] %}
+              <div class="block__product">
+                <h6 class="hotspot-title">{{ product.title  }}</h6>
+                {%- render 'price',
+                  product: product,
+                  use_variant: true,
+                  show_badges: true,
+                  price_class: 'price--large price--hotspots'
+                -%}
+                <a href="{{ product.url }}">{{ block_settings.link_title | default: 'Comprar' }}</a>
+              </div>
+            {% when 'pointCollection' %}
+              <div class="collection_block">
+                {% assign collection = block_settings.collection %}
+                <h6 class="hotspot-title">{{ collection.title }}</h6>
+                <a href="{{ collection.url }}">{{ block_settings.link_title | default: 'Ver más' }}</a>
+              </div>
+          {% endcase %}
         </div>
         <style>
           #{{ classBlock }}-block{{ forloop.index0 }}{
@@ -207,10 +208,86 @@
           "label": "Título del Enlace"
         },
         {
+          "type": "range",
+          "id": "position_x_desktop",
+          "label": "Posición en el eje X (Desktop)",
+          "default": 0,
+          "min": 0,
+          "max": 100
+        },
+        {
+          "type": "range",
+          "id": "position_y_desktop",
+          "label": "Posición en el eje Y (Desktop)",
+          "default": 0,
+          "min": 0,
+          "max": 100
+        },
+        {
+          "type": "range",
+          "id": "position_x_mobile",
+          "label": "Posición en el eje X (Mobile)",
+          "default": 0,
+          "min": 0,
+          "max": 100
+        },
+        {
+          "type": "range",
+          "id": "position_y_mobile",
+          "label": "Posición en el eje Y (Mobile)",
+          "default": 0,
+          "min": 0,
+          "max": 100
+        }
+      ]
+    },
+    {
+      "type": "pointProduct",
+      "name": "PointProduct",
+      "settings": [
+        {
           "type": "product",
           "id": "product",
           "label": "Selecciona el product"
         },
+        {
+          "type": "range",
+          "id": "position_x_desktop",
+          "label": "Posición en el eje X (Desktop)",
+          "default": 0,
+          "min": 0,
+          "max": 100
+        },
+        {
+          "type": "range",
+          "id": "position_y_desktop",
+          "label": "Posición en el eje Y (Desktop)",
+          "default": 0,
+          "min": 0,
+          "max": 100
+        },
+        {
+          "type": "range",
+          "id": "position_x_mobile",
+          "label": "Posición en el eje X (Mobile)",
+          "default": 0,
+          "min": 0,
+          "max": 100
+        },
+        {
+          "type": "range",
+          "id": "position_y_mobile",
+          "label": "Posición en el eje Y (Mobile)",
+          "default": 0,
+          "min": 0,
+          "max": 100
+        }
+      ]
+    },
+    {
+      "type": "pointCollection",
+      "name": "PointCollection",
+      "settings": [
         {
           "type": "collection",
           "id": "collection",

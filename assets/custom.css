@@ -128,4 +128,8 @@ h6.hotspot-title {
   width: 100%;
 }
 
-
+.background-section.box-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 5rem;
+}
