@@ -47,6 +47,7 @@
       "blocks": {
         "slide-0": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Cable-y-rafia-diseno.png",
             "heading": "",
