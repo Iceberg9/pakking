@@ -2,18 +2,17 @@
   "sections": {
     "2171a4a0-8783-4c65-92cb-31f63db852bb": {
       "type": "hotsposts",
-      "disabled": true,
       "blocks": {
         "e9e5ad33-6b8d-421d-b098-c5f21b3ef867": {
           "type": "point",
           "settings": {
-            "title": "Cuerda negra",
-            "link": "shopify:\/\/products\/cuerda-ultraresistente-filtro-uv-de-polipropileno-1050m",
-            "link_title": "Cuerda negra",
-            "position_x_desktop": 49,
-            "position_y_desktop": 27,
-            "position_x_mobile": 44,
-            "position_y_mobile": 35
+            "title": "Rafia",
+            "link": "shopify:\/\/collections\/rafia",
+            "link_title": "Rafia",
+            "position_x_desktop": 13,
+            "position_y_desktop": 81,
+            "position_x_mobile": 2,
+            "position_y_mobile": 83
           }
         },
         "7b3cb008-f1b0-4b5b-864e-ee0d349ce01f": {
@@ -34,8 +33,8 @@
         "7b3cb008-f1b0-4b5b-864e-ee0d349ce01f"
       ],
       "settings": {
-        "background_image": "shopify:\/\/shop_images\/Cable-y-rafia-diseno.png",
-        "background_image_responsive": "shopify:\/\/shop_images\/Cable-y-rafia-diseno.png",
+        "background_image": "shopify:\/\/shop_images\/Main_Banner_Landing_Page_Mesa_de_trabajo_1.png",
+        "background_image_responsive": "shopify:\/\/shop_images\/Main_Banner_Landing_Page_Mesa_de_trabajo_1.png",
         "section_height": 500,
         "section_height_responsive": 300,
         "background_size": "cover",
