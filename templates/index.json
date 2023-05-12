@@ -18,13 +18,13 @@
         "7b3cb008-f1b0-4b5b-864e-ee0d349ce01f": {
           "type": "point",
           "settings": {
-            "title": "Rafia Roja",
-            "link": "shopify:\/\/products\/rafia-pakking-calibre-3-color-natural-de-polipropileno",
-            "link_title": "",
-            "position_x_desktop": 39,
-            "position_y_desktop": 62,
-            "position_x_mobile": 32,
-            "position_y_mobile": 60
+            "title": "Cuerda azul",
+            "link": "shopify:\/\/collections\/cable",
+            "link_title": "Cuerda azul",
+            "position_x_desktop": 49,
+            "position_y_desktop": 80,
+            "position_x_mobile": 45,
+            "position_y_mobile": 80
           }
         }
       },
