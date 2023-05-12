@@ -26,11 +26,22 @@
             "position_x_mobile": 45,
             "position_y_mobile": 80
           }
+        },
+        "f5da350c-9b98-438b-8711-a52a486cd5bd": {
+          "type": "pointCollection",
+          "settings": {
+            "collection": "stretch-film",
+            "position_x_desktop": 85,
+            "position_y_desktop": 83,
+            "position_x_mobile": 87,
+            "position_y_mobile": 83
+          }
         }
       },
       "block_order": [
         "e9e5ad33-6b8d-421d-b098-c5f21b3ef867",
-        "7b3cb008-f1b0-4b5b-864e-ee0d349ce01f"
+        "7b3cb008-f1b0-4b5b-864e-ee0d349ce01f",
+        "f5da350c-9b98-438b-8711-a52a486cd5bd"
       ],
       "settings": {
         "background_image": "shopify:\/\/shop_images\/Main_Banner_Landing_Page_Mesa_de_trabajo_1.png",
