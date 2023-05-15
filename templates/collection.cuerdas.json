@@ -1,5 +1,21 @@
 {
   "sections": {
+    "aea4a8e6-353d-48ce-a3f2-ce641876109f": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/cuerda_soga_banner_collection.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "banner": {
       "type": "main-collection-banner",
       "settings": {
@@ -28,6 +44,7 @@
     }
   },
   "order": [
+    "aea4a8e6-353d-48ce-a3f2-ce641876109f",
     "banner",
     "product-grid"
   ]
