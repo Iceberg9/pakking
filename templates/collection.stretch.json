@@ -1,5 +1,21 @@
 {
   "sections": {
+    "98a12b1c-21cd-4771-b20a-966786f71e30": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/stretch_film_banner_collection.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "banner": {
       "type": "main-collection-banner",
       "settings": {
@@ -28,6 +44,7 @@
     }
   },
   "order": [
+    "98a12b1c-21cd-4771-b20a-966786f71e30",
     "banner",
     "product-grid"
   ]
