@@ -13,8 +13,8 @@
         "heading": "Solicita aquí una cotización",
         "heading_size": "h1",
         "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 68
+        "padding_top": 36,
+        "padding_bottom": 56
       }
     }
   },
