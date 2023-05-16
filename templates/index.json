@@ -5,6 +5,7 @@
       "blocks": {
         "e9e5ad33-6b8d-421d-b098-c5f21b3ef867": {
           "type": "point",
+          "disabled": true,
           "settings": {
             "title": "Rafia",
             "link": "shopify:\/\/collections\/rafia",
@@ -17,6 +18,7 @@
         },
         "7b3cb008-f1b0-4b5b-864e-ee0d349ce01f": {
           "type": "point",
+          "disabled": true,
           "settings": {
             "title": "Cuerda azul",
             "link": "shopify:\/\/collections\/cable",
@@ -29,6 +31,7 @@
         },
         "f5da350c-9b98-438b-8711-a52a486cd5bd": {
           "type": "pointCollection",
+          "disabled": true,
           "settings": {
             "collection": "stretch-film",
             "position_x_desktop": 85,
