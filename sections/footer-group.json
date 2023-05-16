@@ -42,7 +42,7 @@
         "7487445c-6eb9-48fa-a16d-5d5fcc61c086": {
           "type": "link_list",
           "settings": {
-            "heading": "Información",
+            "heading": "<strong>Información<\/strong>",
             "menu": "footer"
           }
         }
