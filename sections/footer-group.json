@@ -58,11 +58,11 @@
         "show_social": true,
         "enable_country_selector": false,
         "enable_language_selector": false,
-        "payment_enable": false,
+        "payment_enable": true,
         "show_policy": true,
-        "margin_top": 20,
-        "padding_top": 44,
-        "padding_bottom": 32
+        "margin_top": 0,
+        "padding_top": 20,
+        "padding_bottom": 24
       }
     }
   },
