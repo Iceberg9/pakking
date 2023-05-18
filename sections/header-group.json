@@ -8,7 +8,7 @@
 
       ],
       "settings": {
-        "custom_liquid": "<style>\n  .moving-text {\n    position:\n    top: 0;\n    left: 0;\n    white-space: nowrap;\n    overflow: hidden;\n    width: 100%;\n  }\n\n  .moving-text span {\n    display: inline-block;\n    animation: move 9s linear infinite;\n  }\n\n  @keyframes move {\n    0% { transform: translateX(550%); }\n    -1000% { transform: translateX(100%); }\n  }\n<\/style>\n\n<div class=\"moving-text\">\n  <span>🚚-¡Envíos gratis todo el mes!  <\/span>\n<\/div>",
+        "custom_liquid": "<style>\n  .moving-text {\n    position:\n    top: 0;\n    left: 0;\n    white-space: nowrap;\n    overflow: hidden;\n    width: 100%;\n  }\n\n  .moving-text span {\n    display: inline-block;\n    animation: move 9s linear infinite;\n  }\n\n  @keyframes move {\n    0% { transform: translateX(570%); }\n    -1000% { transform: translateX(100%); }\n  }\n<\/style>\n\n<div class=\"moving-text\">\n  <span>🚚-¡Envíos gratis todo el mes!  <\/span>\n<\/div>",
         "color_scheme": "accent-1",
         "padding_top": 16,
         "padding_bottom": 16
