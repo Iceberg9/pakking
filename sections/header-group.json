@@ -19,11 +19,10 @@
       "blocks": {
         "15e886f2-d671-4a12-be3c-81a90a567663": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
-            "text": "Descubre el nuevo Pakking",
+            "text": "5% de Descuento en tu primer compra usando el código Pakking05",
             "text_alignment": "center",
-            "color_scheme": "accent-1",
+            "color_scheme": "background-2",
             "link": ""
           }
         }
