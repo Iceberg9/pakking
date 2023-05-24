@@ -17,56 +17,52 @@
         "padding_bottom": 56
       }
     },
-    "91030f71-c516-4f97-a10d-d7dc39c01203": {
-      "type": "image-with-text",
-      "disabled": true,
+    "eb9c117e-3271-4791-a8fd-6efdc327a015": {
+      "type": "rich-text",
       "blocks": {
-        "template--18837165998359__91030f71-c516-4f97-a10d-d7dc39c01203-1684950953b99625c2-0": {
+        "template--18837165998359__eb9c117e-3271-4791-a8fd-6efdc327a015-16849561590fb99875-0": {
           "type": "heading",
           "settings": {
-            "heading": "Habla con nosotros vía WhatsApp",
-            "heading_size": "h2"
+            "heading": "Habla con nosotros",
+            "heading_size": "h1"
           }
         },
-        "template--18837165998359__91030f71-c516-4f97-a10d-d7dc39c01203-1684950953b99625c2-1": {
+        "template--18837165998359__eb9c117e-3271-4791-a8fd-6efdc327a015-16849561590fb99875-1": {
           "type": "text",
           "settings": {
-            "text": "<p>564-184-9611<\/p>",
-            "text_style": "subtitle"
+            "text": "<p>Pregunta por cualquiera de nuestros productos, promociones o compras que hayas hecho. Estamos para ayudarte<\/p>"
           }
         },
-        "template--18837165998359__91030f71-c516-4f97-a10d-d7dc39c01203-1684950953b99625c2-2": {
+        "template--18837165998359__eb9c117e-3271-4791-a8fd-6efdc327a015-16849561590fb99875-2": {
           "type": "button",
           "settings": {
             "button_label": "WhatsApp",
-            "button_link": "{{ page.url }}"
+            "button_link": "https:\/\/api.whatsapp.com\/send?phone=5215641849611",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "template--18837165998359__91030f71-c516-4f97-a10d-d7dc39c01203-1684950953b99625c2-0",
-        "template--18837165998359__91030f71-c516-4f97-a10d-d7dc39c01203-1684950953b99625c2-1",
-        "template--18837165998359__91030f71-c516-4f97-a10d-d7dc39c01203-1684950953b99625c2-2"
+        "template--18837165998359__eb9c117e-3271-4791-a8fd-6efdc327a015-16849561590fb99875-0",
+        "template--18837165998359__eb9c117e-3271-4791-a8fd-6efdc327a015-16849561590fb99875-1",
+        "template--18837165998359__eb9c117e-3271-4791-a8fd-6efdc327a015-16849561590fb99875-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/whatsapp_icon_138013_1.png",
-        "height": "adapt",
-        "desktop_image_width": "small",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "center",
-        "content_layout": "no-overlap",
-        "color_scheme": "accent-1",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     }
   },
   "order": [
     "main",
     "form",
-    "91030f71-c516-4f97-a10d-d7dc39c01203"
+    "eb9c117e-3271-4791-a8fd-6efdc327a015"
   ]
 }
