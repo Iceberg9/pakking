@@ -16,10 +16,56 @@
         "padding_top": 36,
         "padding_bottom": 56
       }
+    },
+    "91030f71-c516-4f97-a10d-d7dc39c01203": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--18837165998359__91030f71-c516-4f97-a10d-d7dc39c01203-1684950953b99625c2-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Habla con nosotros vía WhatsApp",
+            "heading_size": "h2"
+          }
+        },
+        "template--18837165998359__91030f71-c516-4f97-a10d-d7dc39c01203-1684950953b99625c2-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>564-184-9611<\/p>",
+            "text_style": "subtitle"
+          }
+        },
+        "template--18837165998359__91030f71-c516-4f97-a10d-d7dc39c01203-1684950953b99625c2-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "WhatsApp",
+            "button_link": "{{ page.url }}"
+          }
+        }
+      },
+      "block_order": [
+        "template--18837165998359__91030f71-c516-4f97-a10d-d7dc39c01203-1684950953b99625c2-0",
+        "template--18837165998359__91030f71-c516-4f97-a10d-d7dc39c01203-1684950953b99625c2-1",
+        "template--18837165998359__91030f71-c516-4f97-a10d-d7dc39c01203-1684950953b99625c2-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/whatsapp_icon_138013.png",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "color_scheme": "accent-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
-    "form"
+    "form",
+    "91030f71-c516-4f97-a10d-d7dc39c01203"
   ]
 }
