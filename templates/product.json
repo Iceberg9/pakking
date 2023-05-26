@@ -57,7 +57,7 @@
           "settings": {
             "layout": "horizontal",
             "icon_1": "question_mark",
-            "heading_1": "Preguntas Frecuentes",
+            "heading_1": "Preguntas <a href=\"\/blogs\/news\" target=\"_blank\" title=\"News\">Frecuentes<\/a>",
             "icon_2": "none",
             "heading_2": "",
             "icon_3": "none",
