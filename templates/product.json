@@ -46,10 +46,22 @@
           "type": "collapsible_tab",
           "disabled": true,
           "settings": {
-            "heading": "Información adicional",
+            "heading": "Preguntas frecuentes",
             "icon": "question_mark",
             "content": "",
             "page": ""
+          }
+        },
+        "12dbfd5b-b07d-4ba5-9641-d53cd062cfea": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "horizontal",
+            "icon_1": "question_mark",
+            "heading_1": "Preguntas Frecuentes",
+            "icon_2": "none",
+            "heading_2": "",
+            "icon_3": "none",
+            "heading_3": ""
           }
         }
       },
@@ -61,7 +73,8 @@
         "buy_buttons",
         "share",
         "description",
-        "3969687e-eb31-43b7-a207-18b552aef6be"
+        "3969687e-eb31-43b7-a207-18b552aef6be",
+        "12dbfd5b-b07d-4ba5-9641-d53cd062cfea"
       ],
       "settings": {
         "enable_sticky_info": true,
