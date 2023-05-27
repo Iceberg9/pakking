@@ -1,7 +1,63 @@
 {
   "sections": {
+    "035c5f40-2b1f-4bae-bef3-20a16e8b5596": {
+      "type": "slideshow",
+      "blocks": {
+        "template--18837166031127__035c5f40-2b1f-4bae-bef3-20a16e8b5596-16851475593aeeef97-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Descuento_Hot_Sale.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "template--18837166031127__035c5f40-2b1f-4bae-bef3-20a16e8b5596-16851475593aeeef97-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Main_Banner_Landing_Page_Mesa_de_trabajo_1.png",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--18837166031127__035c5f40-2b1f-4bae-bef3-20a16e8b5596-16851475593aeeef97-0",
+        "template--18837166031127__035c5f40-2b1f-4bae-bef3-20a16e8b5596-16851475593aeeef97-1"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "dots",
+        "auto_rotate": true,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": false,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
     "2171a4a0-8783-4c65-92cb-31f63db852bb": {
       "type": "hotsposts",
+      "disabled": true,
       "blocks": {
         "e9e5ad33-6b8d-421d-b098-c5f21b3ef867": {
           "type": "point",
@@ -58,6 +114,7 @@
     },
     "slideshow": {
       "type": "slideshow",
+      "disabled": true,
       "blocks": {
         "slide-0": {
           "type": "slide",
@@ -284,6 +341,7 @@
     }
   },
   "order": [
+    "035c5f40-2b1f-4bae-bef3-20a16e8b5596",
     "2171a4a0-8783-4c65-92cb-31f63db852bb",
     "slideshow",
     "57290c9c-c5db-4ad0-b73c-adfa4f700570",
