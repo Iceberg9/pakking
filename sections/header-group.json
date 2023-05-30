@@ -52,11 +52,21 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "f5870c69-2781-4519-a42b-a4782c279e2a": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n  .search-bar {\n    display: flex;\n    align-items: center;\n    justify-content: flex-end;\n    text-align: center;\n    margin-bottom: 2px;\n    width: 10%;\n    max-width: 200px;\n    border-radius: 20px;\n    overflow: hidden;\n    margin-left: 1%;\n    margin-right: 85%;\n    background-color: #fff;\n    transition: all 0.5s ease-in-out; \n  }\n  \n  .search-bar:hover {\n    width: 100%;\n  \/*  background-color: #252525;*\/\n   \/* padding-right: 50px;*\/ }\n  \n  .search-input {\n    flex: 1;\n    padding: 10px;\n    font-size: 16px;\n    font-family: Arial, sans-serif;\n    border: none;\n    border-radius: 20px;\n    background-color: transparent;\n    width: 100%;\n  }\n \n<\/style>\n\n<div class=\"search-bar\">\n  <form action=\"\/search\" method=\"get\" role=\"search\">\n    <input type=\"search\" name=\"q\" class=\"search-input\" placeholder=\"Buscar...\" aria-label=\"Buscar en la tienda\">\n  <\/form>\n<\/div>",
+        "color_scheme": "accent-1",
+        "padding_top": 4,
+        "padding_bottom": 4
+      }
     }
   },
   "order": [
     "3a95a370-968a-4ea3-b181-8a6d13111e6d",
     "announcement-bar",
-    "header"
+    "header",
+    "f5870c69-2781-4519-a42b-a4782c279e2a"
   ]
 }
