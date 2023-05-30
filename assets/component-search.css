@@ -2,34 +2,6 @@
   padding-right: 9.8rem;
 }
 
-.search-bar {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 5px;
-    width: 30%;
-    max-width: 300px;
-    border-radius: 20px;
-    overflow: hidden;
-    margin-left: 15px;
-    margin-right: 15px;
-    background-color: #fff; 
-  }
-
-  .search-input {
-    flex: 1;
-    padding: 10px;
-    font-size: 16px;
-    font-family: Arial, sans-serif;
-    border: none;
-    border-radius: 20px;
-    background-color: transparent;
-    width: 100%;
-  }
- .search-input::placeholder {
-    text-align: center;
-    padding-left: 5px;
-  }
 .search__button {
   right: var(--inputs-border-width);
   top: var(--inputs-border-width);
