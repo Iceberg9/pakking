@@ -24,6 +24,12 @@
   {{ 'component-loading-overlay.css' | asset_url | stylesheet_tag }}
 {%- endif -%}
 
+<div class="search-bar">
+  <form action="/search" method="get" role="search">
+    <input type="search" name="q" class="search-input" placeholder="Buscar..." aria-label="Buscar en la tienda">
+  </form>
+</div>
+
 <noscript>{{ 'component-list-menu.css' | asset_url | stylesheet_tag }}</noscript>
 <noscript>{{ 'component-search.css' | asset_url | stylesheet_tag }}</noscript>
 <noscript>{{ 'component-menu-drawer.css' | asset_url | stylesheet_tag }}</noscript>
