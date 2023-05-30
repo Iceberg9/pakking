@@ -108,6 +108,48 @@
         "padding_bottom": 0
       }
     },
+    "d5c6a1db-0ef6-42c3-8bc9-089e2c186f5b": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18837165768983__d5c6a1db-0ef6-42c3-8bc9-089e2c186f5b-168547460951836180-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h1"
+          }
+        },
+        "template--18837165768983__d5c6a1db-0ef6-42c3-8bc9-089e2c186f5b-168547460951836180-1": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--18837165768983__d5c6a1db-0ef6-42c3-8bc9-089e2c186f5b-168547460951836180-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Habla con un asesor de ventas",
+            "button_link": "https:\/\/api.whatsapp.com\/send?phone=5554581867",
+            "button_style_secondary": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--18837165768983__d5c6a1db-0ef6-42c3-8bc9-089e2c186f5b-168547460951836180-0",
+        "template--18837165768983__d5c6a1db-0ef6-42c3-8bc9-089e2c186f5b-168547460951836180-1",
+        "template--18837165768983__d5c6a1db-0ef6-42c3-8bc9-089e2c186f5b-168547460951836180-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 32
+      }
+    },
     "related-products": {
       "type": "related-products",
       "settings": {
@@ -128,6 +170,7 @@
   },
   "order": [
     "main",
+    "d5c6a1db-0ef6-42c3-8bc9-089e2c186f5b",
     "related-products"
   ]
 }
