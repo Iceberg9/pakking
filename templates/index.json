@@ -11,8 +11,8 @@
             "heading_size": "h2",
             "subheading": "",
             "button_label": "",
-            "link": "https:\/\/www.pakking.mx\/products",
-            "button_style_secondary": false,
+            "link": "shopify:\/\/collections\/all",
+            "button_style_secondary": true,
             "box_align": "middle-center",
             "show_text_box": false,
             "text_alignment": "center",
@@ -43,6 +43,9 @@
       "block_order": [
         "template--18837166031127__035c5f40-2b1f-4bae-bef3-20a16e8b5596-16851475593aeeef97-0",
         "template--18837166031127__035c5f40-2b1f-4bae-bef3-20a16e8b5596-16851475593aeeef97-1"
+      ],
+      "custom_css": [
+
       ],
       "settings": {
         "layout": "full_bleed",
