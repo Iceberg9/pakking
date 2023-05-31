@@ -1,12 +1,42 @@
-{% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
-{% endschema %}
+{% form 'contact' %}
+  {{ form.errors | default_errors }}
 
-{% stylesheet %}
-{% endstylesheet %}
+  <div class="first-name">
+    <label for="first-name">Nombre</label>
+    <input type="text" name="contact[first_name]" id="first-name" />
+  </div>
 
-{% javascript %}
-{% endjavascript %}
+  <div class="last-name">
+    <label for="last-name">Apellido</label>
+    <input type="text" name="contact[last_name]" id="last-name" />
+  </div>
+
+  <div class="phone">
+    <label for="phone">Teléfono</label>
+    <input type="tel" name="contact[phone]" id="phone" />
+  </div>
+
+  <div class="email">
+    <label for="email">Email</label>
+    <input type="email" name="contact[email]" id="email" />
+  </div>
+
+  <div class="order-number">
+    <label for="order-number">Número de orden</label>
+    <input type="text" name="contact[order_number]" id="order-number" />
+  </div>
+  
+   <div class="uso-cfdi">
+    <label for="uso-cfdi">Uso de CFDI</label>
+    <input type="text" name="contact[uso-cfdi]" id="uso-cfdi" />
+  </div>
+
+   <div class="adress">
+    <label for="adress">Domicilio fiscal</label>
+    <input type="text" name="contact[adress]" id="adress" />
+  </div>
+
+  <div class="submit">
+    <input type="submit" value="Create" />
+  </div>
+{% endform %}
