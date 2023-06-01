@@ -61,12 +61,22 @@
         "padding_top": 4,
         "padding_bottom": 4
       }
+    },
+    "bc8073cb-49ae-47b6-b752-56a2ab7cab92": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "3a95a370-968a-4ea3-b181-8a6d13111e6d",
     "announcement-bar",
     "header",
-    "f5870c69-2781-4519-a42b-a4782c279e2a"
+    "f5870c69-2781-4519-a42b-a4782c279e2a",
+    "bc8073cb-49ae-47b6-b752-56a2ab7cab92"
   ]
 }
