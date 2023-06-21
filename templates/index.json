@@ -264,15 +264,15 @@
     "19930e96-68a5-4356-9d35-ad963048296f": {
       "type": "multirow",
       "blocks": {
-        "template--18601499656471__19930e96-68a5-4356-9d35-ad963048296f-16815062568de99f8d-0": {
+        "f57e61c2-ff0a-485a-8815-36ee9a761ca4": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/rafia_cuerda_plastica_resistente_calibre_2_colores.png",
+            "image": "shopify:\/\/shop_images\/Ingenious_idea_3.png",
             "caption": "",
-            "heading": "Rafia",
-            "text": "<p>Calidad y fuerza en cada centímetro<\/p>",
+            "heading": "Empaques Flexibles",
+            "text": "<p>Conserva tus alimentos. Garantiza un sellado hermético y protección contra la humedad<\/p>",
             "button_label": "Ver más",
-            "button_link": "shopify:\/\/collections\/rafia"
+            "button_link": "shopify:\/\/collections\/empaques-flexibles"
           }
         },
         "template--18601499656471__19930e96-68a5-4356-9d35-ad963048296f-16815062568de99f8d-1": {
@@ -286,6 +286,17 @@
             "button_link": "shopify:\/\/collections\/cable"
           }
         },
+        "template--18601499656471__19930e96-68a5-4356-9d35-ad963048296f-16815062568de99f8d-0": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/rafia_cuerda_plastica_resistente_calibre_2_colores.png",
+            "caption": "",
+            "heading": "Rafia",
+            "text": "<p>Calidad y fuerza en cada centímetro<\/p>",
+            "button_label": "Ver más",
+            "button_link": "shopify:\/\/collections\/rafia"
+          }
+        },
         "8a886215-e35e-40c9-88cf-9592ca7133be": {
           "type": "row",
           "settings": {
@@ -296,24 +307,13 @@
             "button_label": "Ver más",
             "button_link": "shopify:\/\/collections\/stretch-film"
           }
-        },
-        "f57e61c2-ff0a-485a-8815-36ee9a761ca4": {
-          "type": "row",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Ingenious_idea_3.png",
-            "caption": "",
-            "heading": "Empaques Flexibles",
-            "text": "<p>Conserva tus alimentos. Garantiza un sellado hermético y protección contra la humedad<\/p>",
-            "button_label": "Ver más",
-            "button_link": "shopify:\/\/collections\/empaques-flexibles"
-          }
         }
       },
       "block_order": [
-        "template--18601499656471__19930e96-68a5-4356-9d35-ad963048296f-16815062568de99f8d-0",
+        "f57e61c2-ff0a-485a-8815-36ee9a761ca4",
         "template--18601499656471__19930e96-68a5-4356-9d35-ad963048296f-16815062568de99f8d-1",
-        "8a886215-e35e-40c9-88cf-9592ca7133be",
-        "f57e61c2-ff0a-485a-8815-36ee9a761ca4"
+        "template--18601499656471__19930e96-68a5-4356-9d35-ad963048296f-16815062568de99f8d-0",
+        "8a886215-e35e-40c9-88cf-9592ca7133be"
       ],
       "settings": {
         "image_height": "medium",
