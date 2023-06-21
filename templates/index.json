@@ -296,12 +296,24 @@
             "button_label": "Ver más",
             "button_link": "shopify:\/\/collections\/stretch-film"
           }
+        },
+        "f57e61c2-ff0a-485a-8815-36ee9a761ca4": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ingenious_idea_3.png",
+            "caption": "",
+            "heading": "Empaques Flexibles",
+            "text": "<p>Conserva tus alimentos. Garantiza un sellado hermético y protección contra la humedad<\/p>",
+            "button_label": "Ver más",
+            "button_link": "shopify:\/\/collections\/empaques-flexibles"
+          }
         }
       },
       "block_order": [
         "template--18601499656471__19930e96-68a5-4356-9d35-ad963048296f-16815062568de99f8d-0",
         "template--18601499656471__19930e96-68a5-4356-9d35-ad963048296f-16815062568de99f8d-1",
-        "8a886215-e35e-40c9-88cf-9592ca7133be"
+        "8a886215-e35e-40c9-88cf-9592ca7133be",
+        "f57e61c2-ff0a-485a-8815-36ee9a761ca4"
       ],
       "settings": {
         "image_height": "medium",
