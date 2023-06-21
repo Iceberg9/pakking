@@ -64,6 +64,7 @@
     },
     "bc8073cb-49ae-47b6-b752-56a2ab7cab92": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "",
         "color_scheme": "background-1",
